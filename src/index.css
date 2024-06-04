@@ -1,0 +1,48 @@
+/* src/index.css */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.book-card {
+    width: 15vmax;
+    height: 15vmax;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid crimson;
+}
+
+.book-results {
+    display: flex;
+    margin: auto auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+  
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid crimson;
+    width: 60vw;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 23px;
+    color: white;
+    border: 1px solid rgb(92, 80, 80);
+    background-color: crimson;
+    cursor: pointer;
+    
+}
